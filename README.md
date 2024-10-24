@@ -5,7 +5,7 @@
 
 2、Freeswitch 核心需启用mariadb数据库，而后通过redis，与C服务进程（实现批量外呼和呼叫状态监听）进行数据交互
 
-3、整体系统包含几个部分：FS的管理端（即本人的开源[FSLMX](https://github.com/flymote/FSlmx)，FS服务后台管理）、企业用户管理端（给呼叫企业使用的）、登录管理（把平台的登录和授权独立了）
+3、整体系统包含几个部分：FS的管理端（需要私有化微信：nqbt45182，FS服务后台管理）、企业用户管理端（给呼叫企业使用的）、登录管理（把平台的登录和授权独立了）
 
 4、平台基本思路：FS采用域管理后实现多企业云平台，使用C编写的服务进行批量外呼支撑和呼叫状态监听（来电提醒和基础的用户端CRM功能）
 
@@ -29,7 +29,7 @@
 
 5、安装后在代码中数据库和redis基本设置完毕后，在main.php中进入FS管理台，进行对系统平台的使用设置，先进行 参数设置 ，而后进行 服务器设置 ！
 
-6、配置安装Freeswitch，请参考我在FSlmx项目的说明，并附上安装小记： [FS1.10版本](https://blog.csdn.net/onebird_lmx/article/details/107353334)  [FS1.8及1.6版本](https://blog.csdn.net/onebird_lmx/article/details/107353692)  [配置使用FS小记](https://blog.csdn.net/onebird_lmx/article/details/107354258)
+6、配置安装Freeswitch
 
 7、tables.sql为数据库结构
 
