@@ -1,7 +1,7 @@
 # nqbt45182
 基于freeswitch的永久免费开源的呼叫中心系统，无特别的个性化模块或调整，使用FS的域管理，多企业云平台架构，实现自动外呼任务！
 
-1、平台架构：Freeswitch 作为业务支撑，redis 作为数据交换支撑，mariadb 作为数据库支撑
+1、平台架构：Freeswitch 作为业务支撑，redis 作为数据交换支撑，mariadb 作为数据库支撑 
 
 2、Freeswitch 核心需启用mariadb数据库，而后通过redis，与C服务进程（实现批量外呼和呼叫状态监听）进行数据交互
 
